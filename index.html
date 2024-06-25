@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo2.jpg" rel="icon">
-  <link href="assets/img/logo2.jpg" rel="apple-touch-icon">
+  <link href="assets/img/logo_circle.png" rel="icon">
+  <link href="assets/img/logo_circle.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -64,11 +64,10 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
-    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
-      <!-- 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">ARCADE VISTA INTERIORS</a></h1> -->
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between ">
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">ARCADE VISTA INTERIORS</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo_circl.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -76,6 +75,7 @@
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="#why-us">Why Us</a></li>
           <li><a class="nav-link scrollto" href="#specials">Our Expertises</a></li>
+          <li><a href="index.html" id="navlogo"><img src="assets/img/logo_circle.png" alt="" class="img-fluid"></a></li>
           <li><a class="nav-link scrollto" href="#events">Our Designs</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Our Services</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
@@ -101,8 +101,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="https://www.instagram.com/arcadevistainteriors/"
-        class="book-a-table-btn scrollto d-none d-lg-flex">INSTAGRAM</a>
+      <a href="https://www.instagram.com/arcadevistainteriors/" class="book-a-table-btn scrollto d-none d-lg-flex">INSTAGRAM</a>       
 
     </div>
   </header><!-- End Header -->
@@ -143,7 +142,9 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>ABOUT US</h3>
+            <div class="section-title">
+              <h2>About Us</h2>
+            </div>
             <!-- <p class="fst-italic">
               ARCADE VISTA INTERIORS
             </p> -->
@@ -358,13 +359,13 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Interior</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">INTERIOR</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Exterior</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">EXTERIOR</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Landscape</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">LANDSCAPE</a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
@@ -379,7 +380,7 @@
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h4>INTERIOR</h4>
+                    <h4>Interior</h4>
                     <p class="fst-italic">Our extensive interior design category goes far beyond just pre-defined
                       styles. We offer a curated selection of elements that empower you to personalize your space,
                       creating a haven that truly speaks to you.
@@ -412,14 +413,14 @@
                     </div>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/catagories/interiors.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/catagories/interior.jpg" id="expertise-img" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h4>EXTERIOR</h4>
+                    <h4>Exterior</h4>
                     <p class="fst-italic">Our exterior design category offers a variety of elements to enhance your
                       home’s curb appeal, from inviting entryways and stylish siding options to charming patios and
                       functional outdoor furniture. Create a cohesive look that reflects your taste and extends your
@@ -444,14 +445,14 @@
                     </div>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/catagories/exterior.jpeg" alt="" class="img-fluid">
+                    <img src="assets/img/catagories/exterior.jpg" id="expertise-img" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h4>LANDSCAPE</h4>
+                    <h4>Landscape</h4>
                     <p class="fst-italic">Breathe life into your outdoor space with our captivating landscape design
                       category. Imagine a tranquil escape with lush greenery, vibrant flowering plants, or a serene
                       water feature. Our curated selection of plants, hardscaping materials, and decorative elements
@@ -461,29 +462,30 @@
                     </p>
                     <div class="row">
                       <div class="col-lg-4">
-                        Gardens
+                        <ul><li>Gardens</li></ul>
                       </div>
                       <div class="col-lg-4">
-                        Pergolas
+                        <ul><li>Pergolas</ul>
+                        
                       </div>
                       <div class="col-lg-4">
-                        Swimming pools
+                        <ul><li>Swimming pools</ul>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-lg-4">
-                        Playing area
+                        <ul><li>Playing area</li></ul>
                       </div>
                       <div class="col-lg-4">
-                        Outdoor gym & spa
+                        <ul><li>Outdoor gym & spa</li></ul>
                       </div>
                       <div class="col-lg-4">
-                        Outdoor sitting & BBQ
+                        <ul><li>Outdoor sitting & BBQ</li></ul>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="https://landscapingdubai.com/wp-content/uploads/2018/11/Blog_Nov_50.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/catagories/landscape.jpg" id="expertise-img" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -963,7 +965,7 @@ x
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Contact Us</h2>
         </div>
       </div>
 
