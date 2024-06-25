@@ -198,6 +198,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+
 #header .logo a {
   color: #fff;
 }
@@ -205,6 +206,8 @@ h6 {
 #header .logo img {
   padding-left: 150px;
   max-height: 70px;
+  opacity: 0;
+
 }
 
 /*--------------------------------------------------------------
@@ -1002,6 +1005,7 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  padding-right: 200px;
 }
 
 .specials .nav-tabs {
@@ -1059,7 +1063,8 @@ section {
 
 #expertise-img {
   width: auto; 
-  max-height: 300%; 
+  height: auto;
+  max-width: 400px;
   border: 2px solid #86714c;
   border-radius: 20px;
   position: relative;
@@ -1285,8 +1290,8 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+  /* height: 320px; */
 }
-
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
@@ -1294,6 +1299,16 @@ section {
   position: relative;
   z-index: 2;
   border: 6px solid rgba(255, 255, 255, 0.2);
+}
+
+#services-num{
+  margin: -40px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cda45e;
 }
 
 .testimonials .testimonial-item h3 {
