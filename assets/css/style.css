@@ -1217,6 +1217,36 @@ section {
 }
 
 /*--------------------------------------------------------------
+# oUR DESIGNS
+--------------------------------------------------------------*/
+#design {
+  position: relative;
+  transition: 0.5s;
+  width: auto; 
+  height: auto;
+  max-width: 400px;
+  border: 0.1px solid #86714c;
+  border-radius: 0px;
+  position: relative;
+
+}
+#design:hover {
+  transform: scale(1.03);
+}
+.design-info{
+  text-align: center;
+  background-color: #000000c4;
+  border-radius: 2px;
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  transition: bottom 0.4s;
+  color:  #cda45e;
+}
+
+/*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
 .book-a-table .php-email-form {
