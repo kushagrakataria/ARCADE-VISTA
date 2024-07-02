@@ -1101,6 +1101,8 @@ section {
 #expertise-img {
   position: relative;
   transition: 0.5s;
+    z-index: 10; /* Adjust the value based on your needs */
+    position: relative; /* Needed for z-index to work */
 }
 
 #expertise-img {
@@ -1543,7 +1545,29 @@ section {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
+.view-all-btn{
+    width: 20%;
+    margin: 50px auto; /* Adjusted for horizontal centering */
+    border: 2px solid #cda45e;
+    color: #fff;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    display: block; /* Added to enable margin auto to work */
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    text-align: center; /* For inline or inline-block elements inside the block */
+}
 
+.view-all-btn:hover{
+  background: #cda45e;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
